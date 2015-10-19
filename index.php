@@ -17,6 +17,13 @@
                     echo " My name is " . $myname . "<br> and I am " . $myage;
                     echo " Hey ";
                     echo " Atashi wa " . $mynamesaad . " desu ";
+                ?><br>
+                <?php
+                echo "I get printed!";
+                // I don't! I'm a comment.
+
+                /* I don’t get printed either
+                and neither do I */
                 ?>
             </p>
         </body><hr><br>
