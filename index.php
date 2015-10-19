@@ -9,7 +9,7 @@
             <h1> It's ALIVE!!!  </h1>
             <p>
                 <?php
-                    echo " Hello WORLD ";
+                    echo "<h1> Hello WORLD</h1><hr><br>";
                     echo " Hello, " . " " . " World " . " ! ";
                     echo 5 * 7;
                     $myname =  "Freddo Bate5";
