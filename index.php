@@ -7,7 +7,7 @@
         </head>
         <body>
             <h1> It's ALIVE!!!  </h1>
-            <h1>
+            <div>
                 <?php
                     echo "<h1> Hello WORLD</h1><hr><br>";
                     echo " Hello, " . " " . " World " . " ! ";
@@ -28,6 +28,6 @@
                     print "Teme dari desuka?";
                 }
                 ?>
-            </h1>
+            </div>
         </body><hr><br>
     </html>
