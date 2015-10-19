@@ -11,8 +11,7 @@
                 <?php
                     echo "<h1> Hello WORLD</h1><hr><br>";
                     echo " Hello, " . " " . " World " . " ! ";
-                    echo 5 * 7;
-                    $myname =  "Freddo Bate5";
+                    $myname =  "Bla bla";
                     $myage = 111;
                     $mynamesaad = " Saad Alm ";
                     echo " My name is " . $myname . " and I am " . $myage;
@@ -20,6 +19,5 @@
                     echo " Atashi wa " . $mynamesaad . " desu ";
                 ?>
             </p>
-            <h1> Hi </h1>
         </body><hr><br>
     </html>
