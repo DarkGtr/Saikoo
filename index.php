@@ -12,7 +12,7 @@
                     echo " Hello WORLD ";
                     echo " Hello, " . " " . " World " . " ! ";
                     echo 5 * 7;
-                    $myname = " Frodo Baggins ";
+                    $myname = "http://www.google.com ";
                     $myage = 111;
                     $mynamesaad = " Saad Alm ";
                     echo " My name is " . $myname . " and I am " . $myage;
