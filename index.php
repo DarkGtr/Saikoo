@@ -7,7 +7,7 @@
         </head>
         <body>
             <h1> It's ALIVE!!!  </h1>
-            <p>
+            <h1>
                 <?php
                     echo "<h1> Hello WORLD</h1><hr><br>";
                     echo " Hello, " . " " . " World " . " ! ";
@@ -17,7 +17,7 @@
                     echo " My name is " . $myname . "<br> and I am " . $myage;
                     echo " Hey ";
                     echo " Atashi wa " . $mynamesaad . " desu ";
-                ?><br>
+                ?><br><hr>
                 <?php
                     $name = "Edgar";
 
@@ -28,6 +28,6 @@
                     print "Teme dari desuka?";
                 }
                 ?>
-            </p>
+            </h1>
         </body><hr><br>
     </html>
