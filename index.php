@@ -12,5 +12,6 @@
                     echo "Hello WORLD";
                 ?>
             </p>
+            <h1> Hi </h1><hr><br>
         </body>
     </html>
