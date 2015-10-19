@@ -19,11 +19,14 @@
                     echo " Atashi wa " . $mynamesaad . " desu ";
                 ?><br>
                 <?php
-                echo "I get printed!";
-                // I don't! I'm a comment.
+                    $name = "Edgar";
 
-                /* I don’t get printed either
-                and neither do I */
+                if ($name == "Simon") {
+                    print "I know you";
+                }
+                else {
+                    print "Teme dari desuka?";
+                }
                 ?>
             </p>
         </body><hr><br>
