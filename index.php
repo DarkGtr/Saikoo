@@ -90,7 +90,7 @@
                     ECHO $myarray[1];
                     print($myarray[2]);
                 ?>
-                <iframe width="1280" height="720"
+                <iframe width="420" height="315"
                         src="https://www.youtube.com/watch?v=5GUPtoiFm5A">
                 </iframe>
             </div>
