@@ -78,9 +78,17 @@
                         ECHO "You must be +21 to buy Sausages";
                         BREAK;
                     DEFAULT:
-                        ECHO "<br>Go Home babe";
+                        ECHO "Go Home babe";
                 }
                 ?><br>
+            </div>
+            <div>
+                <?php
+                    $myarray = array("do", "re", "mi");
+                        ECHO $myarray[0];
+                    ECHO $myarray[1];
+                    unset($myarray[2]);
+                ?>
             </div>
         </body><hr><br>
     </html>
