@@ -47,5 +47,19 @@
                 }
                 ?>
             </div>
+            <div>
+                <?php
+                    $myage2 = 25;
+                if ($myage2 >= 16) {
+                    print " You are qualify to buy SPECS!";
+                }
+                ELSEIF ($myage2 >= 18) {
+                    print " You are qualify to buy MUGS! ";
+                }
+                ELSE {
+                    print " You are qualify to buy Sausages Rollzo ";
+                }
+                ?>
+            </div>
         </body><hr><br>
     </html>
