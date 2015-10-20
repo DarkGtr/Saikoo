@@ -29,5 +29,30 @@
                 }
                 ?>
             </div>
+            <div>
+                <?php
+                    $myage16 = 16;
+                IF ($myage16 >= 16 ) {
+                    print "You can buy specs";
+                }
+                else {
+                    print "Kieero gakiyaro";
+                }
+                    $myage18 = 18;
+                IF ($myage18 >= 18) {
+                    print "You can by mugs";
+                }
+                else {
+                    print "Kieero konogakiyaro";
+                }
+                    $myage21 = 21;
+                IF ($myage21 >= 21) {
+                    print "You can buy sausage rolls";
+                }
+                else {
+                    print "Kieero";
+                }
+                ?>
+            </div>
         </body><hr><br>
     </html>
