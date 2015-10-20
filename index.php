@@ -66,7 +66,7 @@
             </div><br><hr>
             <div><br>
                 <?php
-                    $wantedgood = "mugs";
+                    $wantedgood = "lala";
                 SWITCH ($wantedgood) {
                     CASE "sepcs":
                         ECHO "You must be 16 to buy specs";
