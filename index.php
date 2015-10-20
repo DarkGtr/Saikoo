@@ -31,26 +31,19 @@
             </div>
             <div>
                 <?php
-                    $myage16 = 16;
-                IF ($myage16 >= 16 ) {
-                    print "You can buy specs";
-                }
-                else {
-                    print "Kieero gakiyaro";
-                }
-                    $myage18 = 18;
-                IF ($myage18 >= 18) {
-                    print "You can by mugs";
-                }
-                else {
-                    print "Kieero konogakiyaro";
-                }
-                    $myage21 = 21;
-                IF ($myage21 >= 21) {
-                    print "You can buy sausage rolls";
-                }
-                else {
-                    print "Kieero";
+                    $numberOfHobbits = 2;
+                SWITCH ($numberOfHobbits) {
+                    CASE 1:
+                        ECHO "1 sad hobbit";
+                        BREAK;
+                    CASE 2:
+                        ECHO "2 happy hobbits";
+                        BREAK;
+                    CASE 3:
+                        ECHO "3 hobbits are a crowd";
+                        BREAK;
+                    DEFAULT:
+                        ECHO "All the hobbits have gone home";
                 }
                 ?>
             </div>
