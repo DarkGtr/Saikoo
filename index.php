@@ -80,8 +80,6 @@
                         IF ($wantedgood == "Sausages Rolls");
                         print "You have to be over 21 to buy Sausages Rolls";
                         BREAK;
-                    DEFAULT:
-                        ECHO "GO HOME KID";
                 }
                 ?>
             </div>
