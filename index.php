@@ -84,11 +84,11 @@
             </div>
             <div>
                 <?php
-                    $myarray = array("do", "re", "mi");
+                    $myarray = array("We ", "re", "Together");
                         ECHO $myarray[0];
-                    $myarray[1] = "la";
+                    $myarray[1] = "Fighter ";
                     ECHO $myarray[1];
-                    unset($myarray[2]);
+                    print($myarray[2]);
                 ?>
             </div>
         </body><hr><br>
