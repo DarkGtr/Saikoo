@@ -78,7 +78,7 @@
                         ECHO "You must be +21 to buy Sausages";
                         BREAK;
                     DEFAULT:
-                        ECHO "Go Home babe";
+                        ECHO "<br>Go Home babe";
                 }
                 ?><br>
             </div>
