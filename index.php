@@ -64,5 +64,23 @@
                 }
                 ?>
             </div>
+            <div>
+                <?php
+                    $wantedgood = "mugs";
+                SWITCH ($wantedgood) {
+                    CASE 1:
+                        IF ($wantedgood == "mugs");
+                        print "You have to be 18 to buy mugs";
+                        BREAK;
+                    CASE 2:
+                        IF ($wantedgood == "specs");
+                        print "You have to be 16 to buy specs";
+                        BREAK;
+                    CASE 3:
+                        IF ($wantedgood == "Sausages Rolls");
+                        print "You have to be over 21 to buy Sausages Rolls";
+                }
+                ?>
+            </div>
         </body><hr><br>
     </html>
