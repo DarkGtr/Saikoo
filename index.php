@@ -98,7 +98,7 @@
                 <?php
                     $provisionedActivities = array("Specs, ", "Drugs & ", "Rock and Roll");
                         FOREACH ($provisionedActivities as $x ) {
-                            print "<h1> $x </h1>";
+                            print "<p> $x </p>";
                         }
                 ?>
             </div>
