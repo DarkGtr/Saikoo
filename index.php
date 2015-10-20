@@ -86,7 +86,7 @@
                 <?php
                     $myarray = array("We ", "re", "Together");
                         ECHO $myarray[0];
-                    $myarray[1] = "Fighter ";
+                    $myarray[1] = "Fight ";
                     ECHO $myarray[1];
                     print($myarray[2]);
                 ?>
