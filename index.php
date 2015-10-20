@@ -49,11 +49,11 @@
             </div>
             <div>
                 <?php
-                    $myage2 = 17;
-                if ($myage2 == "16-17") {
+                    $myage2 = 20;
+                if ($myage2 == 16-17) {
                     print " You are qualify to buy SPECS!";
                 }
-                ELSEIF ($myage2 >= "18-20") {
+                ELSEIF ($myage2 == 18-20) {
                     print " You are qualify to buy MUGS! ";
                 }
                 ELSE {
