@@ -5,7 +5,7 @@
             <meta charset="UTF-8">
             <title>Deployment  Test</title>
         </head>
-        <body>
+        <body background ="http://www.pageresource.com/wallpapers/wallpaper/fond-cran-manga-one-piece-luffy-achblog_431494.jpg">
             <h1> It's ALIVE!!! FUU  </h1>
             <div>
                 <?php
