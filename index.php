@@ -50,7 +50,7 @@
             <div>
                 <?php
                     $myage2 = 17;
-                if ($myage2 == "16") {
+                if ($myage2 == "16-17") {
                     print " You are qualify to buy SPECS!";
                 }
                 ELSEIF ($myage2 >= "18-20") {
