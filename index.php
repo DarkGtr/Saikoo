@@ -63,8 +63,8 @@
                     print "GO HOME";
                 }
                 ?>
-            </div>
-            <div>
+            </div><br><hr>
+            <div><br>
                 <?php
                     $wantedgood = "mugs";
                 SWITCH ($wantedgood) {
