@@ -86,6 +86,7 @@
                 <?php
                     $myarray = array("do", "re", "mi");
                         ECHO $myarray[0];
+                    $myarray = "la";
                     ECHO $myarray[1];
                     unset($myarray[2]);
                 ?>
