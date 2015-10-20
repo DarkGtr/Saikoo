@@ -31,7 +31,7 @@
             </div>
             <div>
                 <?php
-                    $numberOfHobbits = 2;
+                    $numberOfHobbits = 3;
                 SWITCH ($numberOfHobbits) {
                     CASE 1:
                         ECHO "1 sad hobbit";
