@@ -94,5 +94,13 @@
                         src="https://www.youtube.com/embed/UGreqBriJkQ" frameborder="0" allowfullscreen>
                 </iframe>
             </div>
+            <div>
+                <?php
+                    $provisionedActivities = array("Specs, ", "Drugs & ", "Rock and Roll");
+                        FOREACH ($provisionedActivities as $x ) {
+                            print "<h1> $x </h1>";
+                        }
+                ?>
+            </div>
         </body><hr><br>
     </html>
