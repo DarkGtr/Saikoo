@@ -49,7 +49,7 @@
             </div>
             <div>
                 <?php
-                    $myage2 = 21;
+                    $myage2 = 17;
                 if (($myage2 >= 16) && ($myage2 == 17)) {
                     print " You are qualify to buy SPECS!";
                 }
