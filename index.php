@@ -49,15 +49,18 @@
             </div>
             <div>
                 <?php
-                    $myage2 = 17;
+                    $myage2 = 15;
                 if (($myage2 >= 16) && ($myage2 == 17)) {
                     print " You are qualify to buy SPECS!";
                 }
                 ELSEIF (($myage2 >= 18) && ($myage2 <= 20)) {
                     print " You are qualify to buy MUGS! ";
                 }
-                ELSE {
+                ELSEIF ($myage2 >= 21) {
                     print " You are qualify to buy Sausages Rollzo ";
+                }
+                ELSE {
+                    print "GO HOME";
                 }
                 ?>
             </div>
