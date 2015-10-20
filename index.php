@@ -48,9 +48,8 @@
                 ?>
             </div>
             <div>
-                <p> FUU </p>
                 <?php
-                    $myage2 = 25;
+                    $myage2 = 17;
                 if ($myage2 == "16") {
                     print " You are qualify to buy SPECS!";
                 }
