@@ -68,18 +68,17 @@
                 <?php
                     $wantedgood = "mugs";
                 SWITCH ($wantedgood) {
-                    CASE 1:
-                        IF ($wantedgood = "mugs");{
-                        print "You have to be 18 to buy mugs";}
+                    CASE "sepcs":
+                        ECHO "You must be 16 to buy specs";
                         BREAK;
-                    CASE 2:
-                        IF ($wantedgood = "specs");{
-                        print "You have to be 16 to buy specs";}
+                    CASE "mugs":
+                        ECHO "You must be 18 to buy mugs";
                         BREAK;
-                    CASE 3:
-                        IF ($wantedgood = "Sausages Rolls");{
-                        print "You have to be over 21 to buy Sausages Rolls";}
+                    CASE "Sausage Rolls":
+                        ECHO "You must be +21 to buy Sausages";
                         BREAK;
+                    DEFAULT:
+                        ECHO "Go Home babe";
                 }
                 ?>
             </div>
