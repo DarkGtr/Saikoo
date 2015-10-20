@@ -90,6 +90,10 @@
                     ECHO $myarray[1];
                     print($myarray[2]);
                 ?>
+                <video width="1270" controls>
+                    <source src="https://www.youtube.com/watch?v=5GUPtoiFm5A" type="video/flv">
+                    Your browser does not support html5 video
+                </video>
             </div>
         </body><hr><br>
     </html>
