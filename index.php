@@ -91,7 +91,7 @@
                     print($myarray[2]);
                 ?>
                 <iframe width="420" height="315"
-                        src="http://www.youtube.com/watch?v=5GUPtoiFm5A">
+                        src="http://www.youtube.com/embed/?v=5GUPtoiFm5A">
                 </iframe>
             </div>
         </body><hr><br>
