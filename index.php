@@ -6,7 +6,7 @@
             <title>Deployment  Test</title>
         </head>
         <body>
-            <h1> It's ALIVE!!!  </h1>
+            <h1> It's ALIVE!!! FUU  </h1>
             <div>
                 <?php
                     echo "<h1> Hello WORLD</h1><hr><br>";
@@ -48,12 +48,13 @@
                 ?>
             </div>
             <div>
+                <p> FUU </p>
                 <?php
                     $myage2 = 25;
-                if ($myage2 >= 16-17) {
+                if ($myage2 == "16") {
                     print " You are qualify to buy SPECS!";
                 }
-                ELSEIF ($myage2 >= 18-20) {
+                ELSEIF ($myage2 >= "18-20") {
                     print " You are qualify to buy MUGS! ";
                 }
                 ELSE {
