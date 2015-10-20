@@ -80,7 +80,7 @@
                     DEFAULT:
                         ECHO "Go Home babe";
                 }
-                ?>
+                ?><br>
             </div>
         </body><hr><br>
     </html>
