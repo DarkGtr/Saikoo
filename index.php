@@ -89,7 +89,7 @@
                     $myarray[1] = "Fight ";
                     ECHO $myarray[1];
                     print($myarray[2]);
-                ?>
+                ?><br>
                 <iframe width="560" height="315"
                         src="https://www.youtube.com/embed/UGreqBriJkQ" frameborder="0" allowfullscreen>
                 </iframe>
